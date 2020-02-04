@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.1</version>
+    <build_environment>
+      <compiler>GCC 9.2</compiler>
+      <library name='libext2fs' version='1.45.4'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.5.2'/>
+      <library name='libntfs' version='libntfs-3g'/>
+      <library name='zlib' version='1.2.11'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>5.2.0-kali3-amd64</os_release>
+      <os_version>#1 SMP Debian 5.2.17-1kali1 (2019-09-27)</os_version>
+      <host>lab</host>
+      <arch>x86_64</arch>
+      <uid>0</uid>
+      <start_time>2019-10-18T16:00:22-0400</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>../7el_img/imgs/0x01.img</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>2097152</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='2097152'/>
+      </byte_runs>
+      <block_size>4096</block_size>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0000032.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16384' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000040.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='20480' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000048.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='24576' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000056.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='28672' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000064.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='32768' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000072.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='36864' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000080.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='40960' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000088.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='45056' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000096.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='49152' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000104.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='53248' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000112.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='57344' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000120.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='61440' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000128.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='65536' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000136.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='69632' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000144.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='73728' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000152.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='77824' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000160.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='81920' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002040.mft</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1044480' len='4096'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

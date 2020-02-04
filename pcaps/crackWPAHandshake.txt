@@ -1,0 +1,4 @@
+aircrack-ng -J vc vacuum_cleaner.pcap
+hccap2john vc.hccap > vc.txt
+john vc.txt 
+john --show vc.txt

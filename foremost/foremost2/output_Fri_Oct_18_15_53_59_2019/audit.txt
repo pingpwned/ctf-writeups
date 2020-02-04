@@ -1,0 +1,29 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Oct 18 15:53:59 2019
+Invocation: foremost -a -T -i ../7el_img/imgs/0x01.img 
+Output directory: /root/Downloads/foremost2/output_Fri_Oct_18_15_53_59_2019
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: ../7el_img/imgs/0x01.img
+Start: Fri Oct 18 15:53:59 2019
+Length: 2 MB (2097152 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00001351.jpg 	       1 MB 	     692143 	  (Header dump)
+1:	00001162.bmp 	       1 MB 	     595097 	  (Header dump)
+2:	00001173.bmp 	       1 MB 	     600708 	  (Header dump)
+3:	00001173.exe 	    1024 KB 	     600755 	  (Header dump)
+4:	00001186.exe 	    1024 KB 	     607386 	  (Header dump)
+Finish: Fri Oct 18 15:53:59 2019
+
+5 FILES EXTRACTED
+	
+jpg:= 1
+bmp:= 2
+exe:= 2
+------------------------------------------------------------------
+
+Foremost finished at Fri Oct 18 15:53:59 2019
